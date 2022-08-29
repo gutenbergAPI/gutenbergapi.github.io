@@ -1,6 +1,6 @@
 # Gutenberg API
 
-This is an unofficial [Project Gutenberg API](https://rapidapi.com/rabahdjebbes6-VpFXFzqdF1R/api/project-gutenberg-api/).
+This is a stable and reliable unofficial API for [Project Gutenberg API](https://rapidapi.com/rabahdjebbes6-VpFXFzqdF1R/api/project-gutenberg-api/).
 
 ## Features
 
