@@ -23,18 +23,17 @@ Get your free credentials at [RapidAPI](https://rapidapi.com/rabahdjebbes6-VpFXF
 ```python
 import requests
 
-url = "https://project-gutenberg-api.p.rapidapi.com/get_data"
-
-querystring = {"id": "24"}
+url = "https://project-gutenberg-api.p.rapidapi.com/books/{id}" # in this example 15
 
 headers = {
-	"X-RapidAPI-Key": "<your credentials>",
-	"X-RapidAPI-Host": "<your credentials>"
+	"Content-Type": "application/json",
+	"X-RapidAPI-Key": "22606cdc51mshb55e1156ae0b717p1f67c2jsn0b17cef6e7c0",
+	"X-RapidAPI-Host": "project-gutenberg-api.p.rapidapi.com"
 }
 
-response = requests.request("GET", url, headers=headers, params=querystring)
+response = requests.get(url, headers=headers)
 
-print(response.text)
+print(response.json())
 ```
 
 ## Response
